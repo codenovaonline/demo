@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodeNova - Software que impulsa tu negocio. Páginas web profesionales, tiendas en línea, menús QR y más. Soluciones digitales desde $292 MXN al mes.">
+  <meta name="keywords" content="páginas web, tiendas en línea, menús QR, diseño web, desarrollo web, Chilpancingo, Guerrero, México, CodeNova">
+  <meta name="author" content="CodeNova">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://codenovaonline.netlify.app/">
+  
+  <meta property="og:title" content="CodeNova | Software que Impulsa tu Negocio">
+  <meta property="og:description" content="Páginas web profesionales, tiendas en línea, menús QR y más. Desde $292 MXN al mes.">
+  <meta property="og:image" content="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=2">
+  <meta property="og:url" content="https://codenovaonline.netlify.app/">
+  <meta property="og:type" content="website">
+  
+  <title>CodeNova | Software que Impulsa tu Negocio</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+  
+  <style>
+    .hero-bg {
+      background-image: linear-gradient(rgba(15,23,42,0.88), rgba(15,23,42,0.88)), url('https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-size: cover;
+      background-position: center;
+    }
+    .card-hover {
+      transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+      will-change: transform;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px -12px rgb(99 102 241 / 0.3);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .floating-whatsapp {
+      animation: pulse 2s infinite;
+      will-change: transform;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    @font-face { font-family: 'Font Awesome 6 Free'; font-display: swap; }
+    @font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- NAVEGACIÓN -->
+  <nav class="bg-white/95 backdrop-blur-sm shadow-md fixed w-full z-50 pt-3" aria-label="Navegación principal">
+    <div class="container mx-auto px-6 pb-4 flex justify-between items-center">
+      
+      <a href="#" class="flex items-center gap-3 group" title="CodeNova - Inicio" aria-label="Ir al inicio">
+        <div class="w-11 h-11 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg origin-center">
+          <i class="fas fa-code text-white text-xl" aria-hidden="true"></i>
+        </div>
+        <div>
+          <span class="text-2xl font-bold text-gray-900">Code<span class="text-indigo-600">Nova</span></span>
+          <p class="text-xs text-gray-500 -mt-1">Software que impulsa tu negocio</p>
+        </div>
+      </a>
+      
+      <div class="hidden md:flex gap-8 items-center text-gray-700 font-bold text-xl">
+        <a href="#inicio" class="hover:text-indigo-600 transition-colors">Inicio</a>
+        <a href="#info" class="hover:text-indigo-600 transition-colors">Información</a>
+        <a href="#contacto" class="hover:text-indigo-600 transition-colors">Contacto</a>
+      </div>
+      
+      <a href="https://wa.me/5212202231274" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-xl flex items-center gap-2 hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-indigo-500/25 font-semibold" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp text-lg" aria-hidden="true"></i> <span class="hidden sm:inline">WhatsApp</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero-bg min-h-screen flex items-center text-white pt-24 md:pt-28">
+    <div class="container mx-auto px-6">
+      <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        
+        <span class="inline-block bg-white/10 backdrop-blur-sm text-purple-300 px-4 py-2 rounded-full text-sm font-semibold mb-6 tracking-wider">
+          <i class="fas fa-rocket mr-2" aria-hidden="true"></i> CODENOVA
+        </span>
+        
+        <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+          Software que impulsa<br>tu <span class="gradient-text">negocio</span>
+        </h1>
+        
+        <p class="text-xl md:text-2xl mb-10 text-gray-300 leading-relaxed max-w-2xl mx-auto">
+          Transformamos negocios con soluciones digitales profesionales: páginas web, sistemas y tiendas en línea que generan resultados.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-5 justify-center">
+          <a href="#contacto" class="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 px-10 py-5 rounded-3xl text-xl font-semibold transition-all hover:scale-105 shadow-2xl flex items-center justify-center gap-3">
+            <i class="fas fa-handshake" aria-hidden="true"></i> Contactar
+          </a>
+          <a href="#info" class="border-2 border-white hover:bg-white hover:text-gray-900 px-10 py-5 rounded-3xl text-xl font-semibold transition-all flex items-center justify-center gap-3">
+            <i class="fas fa-arrow-down" aria-hidden="true"></i> Ver más
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO - Tarjetas de contacto -->
+  <section id="info" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12" data-aos="fade-up">
+        <span class="text-indigo-600 font-semibold text-sm uppercase tracking-wider">Información de contacto</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2">Estamos aquí para ti</h2>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-map-marker-alt text-2xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">📍 Ubicación</h3>
+          <p class="text-gray-500">Chilpancingo, Guerrero, México</p>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-phone text-2xl text-green-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">📞 Teléfono</h3>
+          <a href="tel:+522222231274" class="text-gray-500 hover:text-indigo-600 transition-colors">(222) 223-1274</a>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-envelope text-2xl text-purple-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">📧 Email</h3>
+          <a href="mailto:fdomingo.cr@hotmail.com" class="text-gray-500 hover:text-indigo-600 transition-colors">fdomingo.cr@hotmail.com</a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿POR QUÉ CODENOVA? -->
+  <section class="py-20 bg-gray-900 text-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-purple-400 font-semibold text-sm uppercase tracking-wider">Por qué elegirnos</span>
+        <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">¿Por qué <span class="text-indigo-400">CodeNova</span>?</h2>
+      </div>
+      
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 text-center">
+        
+        <div data-aos="fade-up" data-aos-delay="100" class="bg-white/5 backdrop-blur-sm rounded-3xl py-6 md:py-8 px-4 md:px-6">
+          <div class="w-24 md:w-28 lg:w-32 h-16 md:h-20 bg-purple-600/30 rounded-3xl flex items-center justify-center mx-auto mb-3 md:mb-4">
+            <span class="text-3xl md:text-4xl font-bold">10+</span>
+          </div>
+          <p class="font-semibold text-base md:text-lg whitespace-nowrap">Años de experiencia</p>
+          <p class="text-xs md:text-sm text-gray-400 mt-1 whitespace-nowrap">Respaldando negocios</p>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="200" class="bg-white/5 backdrop-blur-sm rounded-3xl py-6 md:py-8 px-4 md:px-6">
+          <div class="w-24 md:w-28 lg:w-32 h-16 md:h-20 bg-purple-600/30 rounded-3xl flex items-center justify-center mx-auto mb-3 md:mb-4">
+            <span class="text-3xl md:text-4xl font-bold">150+</span>
+          </div>
+          <p class="font-semibold text-base md:text-lg whitespace-nowrap">Proyectos exitosos</p>
+          <p class="text-xs md:text-sm text-gray-400 mt-1 whitespace-nowrap">Clientes satisfechos</p>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="300" class="bg-white/5 backdrop-blur-sm rounded-3xl py-6 md:py-8 px-4 md:px-6">
+          <div class="w-24 md:w-28 lg:w-32 h-16 md:h-20 bg-purple-600/30 rounded-3xl flex items-center justify-center mx-auto mb-3 md:mb-4">
+            <span class="text-3xl md:text-4xl">🇲🇽</span>
+          </div>
+          <p class="font-semibold text-base md:text-lg whitespace-nowrap">Soporte mexicano</p>
+          <p class="text-xs md:text-sm text-gray-400 mt-1 whitespace-nowrap">24/7 en español</p>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="400" class="bg-white/5 backdrop-blur-sm rounded-3xl py-6 md:py-8 px-4 md:px-6">
+          <div class="w-24 md:w-28 lg:w-32 h-16 md:h-20 bg-purple-600/30 rounded-3xl flex items-center justify-center mx-auto mb-3 md:mb-4">
+            <span class="text-3xl md:text-4xl font-bold">100%</span>
+          </div>
+          <p class="font-semibold text-base md:text-lg whitespace-nowrap">Mobile First</p>
+          <p class="text-xs md:text-sm text-gray-400 mt-1 whitespace-nowrap">Diseño móvil primero</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="bg-gradient-to-r from-indigo-700 via-purple-700 to-indigo-800 py-20 text-white text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">¿Listo para digitalizar tu negocio?</h2>
+      <p class="text-xl mb-10 max-w-xl mx-auto text-indigo-100" data-aos="fade-up" data-aos-delay="100">
+        Habla con un asesor especializado y recibe una propuesta en minutos.
+      </p>
+      <a href="https://wa.me/5212202231274" class="inline-flex items-center gap-4 bg-white text-indigo-700 px-12 py-6 rounded-3xl text-2xl font-semibold hover:scale-105 transition-all shadow-2xl" data-aos="fade-up" data-aos-delay="200" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp text-4xl" aria-hidden="true"></i> Chatear por WhatsApp
+      </a>
+      <p class="text-indigo-200 text-sm mt-6" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-clock mr-1" aria-hidden="true"></i> Respuesta en menos de 10 minutos
+      </p>
+    </div>
+  </section>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5212202231274" class="floating-whatsapp fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all text-3xl z-50" title="Contactar por WhatsApp" aria-label="Botón flotante de WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400">
+    <div class="container mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-center text-sm">
+        <p>© 2026 CodeNova. Todos los derechos reservados. | Software que impulsa tu negocio</p>
+        <div class="flex gap-4 mt-2 md:mt-0">
+          <a href="aviso-privacidad.html" class="hover:text-white transition-colors">Privacidad</a>
+          <a href="terminos-condiciones.html" class="hover:text-white transition-colors">Términos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+  <script>
+    window.addEventListener('load', function() {
+      AOS.init({ duration: 1000, once: true, disable: 'mobile' });
+    });
+  </script>
+</body>
+</html>
