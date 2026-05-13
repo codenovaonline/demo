@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Restaurante La Vecina - La mejor pozolería de la zona en Acapulco. Pozole, mariscos, música en vivo, show de imitadores y ambiente 100% familiar. ¡Jueves pozolero imperdible!">
+  <meta name="keywords" content="La Vecina, restaurante, pozolería, Acapulco, mariscos, comida, música en vivo, jueves pozolero, ambiente familiar">
+  <meta name="author" content="CodeNova">
+  <meta name="robots" content="index, follow">
+  
+  <meta property="og:title" content="Restaurante La Vecina | Pozolería & Mariscos en Acapulco">
+  <meta property="og:description" content="El mejor pozole, mariscos y ambiente familiar. Show de imitadores, música en vivo y jueves pozolero. ¡Visítanos!">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="es_MX">
+  
+  <title>Restaurante La Vecina | Pozolería & Mariscos | Acapulco</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+  
+  <style>
+    .hero-bg {
+      background-image: linear-gradient(rgba(15,23,42,0.80), rgba(15,23,42,0.80)), url('https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-size: cover;
+      background-position: center;
+    }
+    .parallax-bg {
+      background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .card-hover {
+      transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+      will-change: transform;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px -12px rgb(0 0 0 / 0.3);
+    }
+    .floating-whatsapp {
+      animation: pulse 2s infinite;
+      will-change: transform;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    @font-face { font-family: 'Font Awesome 6 Free'; font-display: swap; }
+    @font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- BARRA SUPERIOR -->
+  <div class="bg-amber-900 text-amber-100 text-sm py-2 hidden md:block">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <div class="flex gap-6">
+        <span><i class="fas fa-map-marker-alt mr-1"></i> Acapulco, Guerrero</span>
+        <span><i class="fas fa-star mr-1"></i> 4.2 ★ · 77 reseñas en Google</span>
+      </div>
+      <div class="flex gap-4">
+        <span><i class="fas fa-clock mr-1"></i> Abierto · Cierra a las 5:00 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-50" aria-label="Navegación principal">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      
+      <a href="#" class="flex items-center gap-3 group" title="Restaurante La Vecina - Inicio">
+        <div class="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg origin-center">
+          <i class="fas fa-utensils text-white text-xl"></i>
+        </div>
+        <div>
+          <span class="text-2xl font-bold text-gray-900">La<span class="text-amber-600">Vecina</span></span>
+          <p class="text-xs text-gray-500 -mt-1">Pozolería & Mariscos</p>
+        </div>
+      </a>
+      
+      <div class="hidden md:flex gap-8 items-center text-gray-700 font-bold text-lg">
+        <a href="#inicio" class="hover:text-amber-600 transition-colors">Inicio</a>
+        <a href="#menu" class="hover:text-amber-600 transition-colors">Menú</a>
+        <a href="#eventos" class="hover:text-amber-600 transition-colors">Eventos</a>
+        <a href="#resenas" class="hover:text-amber-600 transition-colors">Reseñas</a>
+        <a href="#contacto" class="hover:text-amber-600 transition-colors">Contacto</a>
+      </div>
+      
+      <a href="https://wa.me/5217443839451" class="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-3 rounded-xl flex items-center gap-2 hover:from-amber-600 hover:to-orange-700 transition-all shadow-lg hover:shadow-amber-500/25 font-semibold" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp text-lg"></i> <span class="hidden sm:inline">Ordenar</span>
+      </a>
+    </div>
+  </nav>
+
+ <!-- HERO -->
+<section id="inicio" class="hero-bg flex items-start text-white pt-14 md:pt-16 pb-12 md:pb-16">
+  <div class="container mx-auto px-6 mt-4 md:mt-6">
+    <div class="grid md:grid-cols-2 gap-6 items-center">
+      
+      <div>
+        <span class="inline-block bg-amber-600/60 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-4" data-aos="fade-right">
+          <i class="fas fa-star mr-2"></i> 4.2 ★ · 77 reseñas en Google
+        </span>
+        <h1 class="text-5xl md:text-7xl font-bold mb-3 leading-tight" data-aos="fade-up">
+          La<span class="text-amber-400">Vecina</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-200 mb-4" data-aos="fade-up" data-aos-delay="200">
+          Pozolería & Mariscos · Ambiente 100% Familiar
+        </p>
+        <div class="flex flex-wrap gap-2 mb-5" data-aos="fade-up" data-aos-delay="300">
+          <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm"><i class="fas fa-check-circle text-green-400 mr-1"></i> $200-300 por persona</span>
+          <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm"><i class="fas fa-check-circle text-green-400 mr-1"></i> Música en vivo</span>
+          <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm"><i class="fas fa-check-circle text-green-400 mr-1"></i> Show de imitadores</span>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3" data-aos="fade-up" data-aos-delay="400">
+          <a href="#menu" class="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:from-amber-600 hover:to-orange-700 transition-all shadow-lg text-center">
+            <i class="fas fa-book-open mr-2"></i> Ver Menú
+          </a>
+          <a href="https://wa.me/527441234567" class="border-2 border-white text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all text-center">
+            <i class="fab fa-whatsapp mr-2"></i> Ordenar Ahora
+          </a>
+        </div>
+      </div>
+      
+      <div class="hidden md:block" data-aos="fade-left">
+        <div class="bg-white/10 backdrop-blur-md rounded-3xl p-6 text-white border border-white/20">
+          <h3 class="text-2xl font-bold text-center mb-4 text-amber-300">Horario</h3>
+          <div class="space-y-2">
+            <div class="flex justify-between bg-white/5 p-3 rounded-2xl"><span class="font-bold">Abierto</span><span class="text-green-400 font-bold">Ahora</span></div>
+            <div class="flex justify-between bg-white/5 p-3 rounded-2xl"><span class="font-bold">Cierra</span><span class="text-amber-400 font-bold">5:00 PM</span></div>
+          </div>
+          <div class="mt-4 p-3 bg-amber-600/30 rounded-xl text-center">
+            <p class="text-2xl font-bold">$200-300</p>
+            <p class="text-sm text-amber-200">Por persona</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- CARACTERÍSTICAS -->
+<section class="py-12 bg-white border-b border-gray-100">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="flex items-center gap-3" data-aos="fade-up">
+        <div class="w-16 h-16 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-utensils text-2xl text-amber-600"></i>
+        </div>
+        <div><p class="font-bold text-sm text-gray-900">Pozolería</p><p class="text-xs text-gray-500">El mejor pozole</p></div>
+      </div>
+      <div class="flex items-center gap-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-fish text-2xl text-green-600"></i>
+        </div>
+        <div><p class="font-bold text-sm text-gray-900">Mariscos</p><p class="text-xs text-gray-500">Frescos y deliciosos</p></div>
+      </div>
+      <div class="flex items-center gap-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-music text-2xl text-purple-600"></i>
+        </div>
+        <div><p class="font-bold text-sm text-gray-900">Música en Vivo</p><p class="text-xs text-gray-500">Show de imitadores</p></div>
+      </div>
+      <div class="flex items-center gap-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-users text-2xl text-blue-600"></i>
+        </div>
+        <div><p class="font-bold text-sm text-gray-900">Ambiente Familiar</p><p class="text-xs text-gray-500">100% recomendado</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- MENÚ DESTACADO -->
+  <section id="menu" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Nuestra especialidad</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Menú Destacado</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Los platillos que nuestros clientes más disfrutan</p>
+      </div>
+      
+      <div class="grid md:grid-cols-4 gap-6">
+        
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up">
+          <div class="text-5xl mb-4">🍲</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Pozole</h3>
+          <p class="text-sm text-gray-500 mb-3">El favorito de la casa. Jueves pozolero imperdible.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $120</p>
+          <span class="text-xs bg-amber-100 text-amber-700 px-3 py-1 rounded-full">Estrella</span>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-5xl mb-4">🐟</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Mojarra Frita</h3>
+          <p class="text-sm text-gray-500 mb-3">Fresca y crujiente. Acompañada de verduras.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $150</p>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-5xl mb-4">🦐</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Camarones al Mojo de Ajo</h3>
+          <p class="text-sm text-gray-500 mb-3">Deliciosos camarones salteados.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $180</p>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-5xl mb-4">🥪</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Cubana</h3>
+          <p class="text-sm text-gray-500 mb-3">La clásica torta cubana. ¡Imperdible!</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $90</p>
+        </div>
+        
+      </div>
+      
+      <div class="grid md:grid-cols-4 gap-6 mt-6">
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up">
+          <div class="text-5xl mb-4">🍫</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Chocolate con Pan</h3>
+          <p class="text-sm text-gray-500 mb-3">Bebida caliente tradicional.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $45</p>
+        </div>
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-5xl mb-4">🥤</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Malteada de Chocolate</h3>
+          <p class="text-sm text-gray-500 mb-3">Deliciosa y cremosa.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $65</p>
+        </div>
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-5xl mb-4">🪣</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Cubetazo</h3>
+          <p class="text-sm text-gray-500 mb-3">Promoción especial de bebidas.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $250</p>
+        </div>
+        <div class="bg-white rounded-3xl p-6 shadow-lg card-hover border border-gray-100 text-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-5xl mb-4">🦞</div>
+          <h3 class="font-bold text-xl text-gray-900 mb-2">Campechana con Pescadillas</h3>
+          <p class="text-sm text-gray-500 mb-3">Fresca combinación del mar.</p>
+          <p class="text-amber-600 font-bold text-xl">Desde $160</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTOS -->
+  <section id="eventos" class="parallax-bg py-20 text-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-amber-400 font-semibold text-sm uppercase tracking-wider">No te lo pierdas</span>
+        <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Eventos Especiales</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        
+        <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 text-center card-hover" data-aos="fade-up">
+          <div class="text-5xl mb-4">🎉</div>
+          <h3 class="text-2xl font-bold mb-4">Jueves Pozolero</h3>
+          <p class="text-gray-300 mb-4">El mejor día para disfrutar de nuestro pozole. Show de imitadores y música en vivo. Ambiente 100% familiar.</p>
+          <span class="text-xs bg-amber-600 px-3 py-1 rounded-full text-white font-bold">Imperdible</span>
+        </div>
+        
+        <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 text-center card-hover" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-5xl mb-4">🎤</div>
+          <h3 class="text-2xl font-bold mb-4">Show de Imitadores</h3>
+          <p class="text-gray-300 mb-4">Los mejores imitadores de Acapulco te esperan. Diversión garantizada para toda la familia.</p>
+          <span class="text-xs bg-purple-600 px-3 py-1 rounded-full text-white font-bold">Show en vivo</span>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 text-center card-hover" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-5xl mb-4">🎸</div>
+          <h3 class="text-2xl font-bold mb-4">Música en Vivo</h3>
+          <p class="text-gray-300 mb-4">Disfruta de música en vivo los fines de semana. El mejor ambiente de la zona.</p>
+          <span class="text-xs bg-green-600 px-3 py-1 rounded-full text-white font-bold">Fin de semana</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEÑAS -->
+  <section id="resenas" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Testimonios</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Lo que dicen nuestros clientes</h2>
+        <div class="flex justify-center items-center gap-2">
+          <div class="flex text-yellow-400 text-2xl">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="text-2xl font-bold text-gray-900">4.2</span>
+          <span class="text-gray-500">· 77 reseñas en Google</span>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        
+        <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 relative" data-aos="fade-up">
+          <div class="text-6xl text-amber-100 absolute top-4 right-6">"</div>
+          <div class="flex text-yellow-400 mb-4" role="img" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6 relative z-10 italic">"La mejor pozolería de la zona, el mejor ambiente y los precios más accesibles. Cuentan con música en vivo, show de imitadores. Los recomiendo al 100%."</p>
+          <p class="text-xs text-gray-400">Hace 2 meses</p>
+        </div>
+        
+        <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-6xl text-amber-100 absolute top-4 right-6">"</div>
+          <div class="flex text-yellow-400 mb-4" role="img" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6 relative z-10 italic">"Recomiendo por el show de la vecina. No se deben perder el jueves pozolero con ambiente 100% familiar, show de imitadores y música en vivo."</p>
+          <p class="text-xs text-gray-400">Hace 3 meses</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-6xl text-amber-100 absolute top-4 right-6">"</div>
+          <div class="flex text-yellow-400 mb-4" role="img" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6 relative z-10 italic">"Excelente servicio, buen pozole, ambiente familiar y el show de 💯. Saludos desde Cancún a la vecina."</p>
+          <p class="text-xs text-gray-400">Hace 5 meses</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100">
+        <div class="p-4 bg-gray-900 text-white flex items-center gap-3">
+          <i class="fas fa-map-marker-alt text-amber-400"></i>
+          <span class="text-sm font-semibold">Acapulco, Guerrero, México</span>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.5!2d-99.8941181!3d16.8564988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca59900b11e8e9%3A0xa858b71d8b771e94!2sRestaurante+La+vecina!5e0!3m2!1ses-419!2smx!4v1717000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de Restaurante La Vecina"></iframe>
+        <div class="p-4 bg-white text-center">
+          <a href="https://www.google.com/maps/place/Restaurante+La+vecina/@16.8564988,-99.8941181,17z" target="_blank" class="text-amber-600 font-semibold hover:text-amber-700 transition-colors">
+            <i class="fas fa-external-link-alt mr-1"></i> Abrir en Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="bg-gradient-to-r from-amber-700 via-orange-700 to-amber-800 py-20 text-white text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">¿Se te antojó un pozole?</h2>
+      <p class="text-xl mb-10 max-w-xl mx-auto text-amber-100" data-aos="fade-up" data-aos-delay="100">
+        Visítanos y disfruta del mejor ambiente familiar. ¡Te esperamos!
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://wa.me/5217443839451" class="bg-white text-amber-700 px-10 py-5 rounded-2xl text-xl font-semibold hover:bg-gray-100 transition-all shadow-xl inline-flex items-center justify-center gap-3">
+          <i class="fab fa-whatsapp text-2xl"></i> Ordenar Ahora
+        </a>
+        <a href="https://www.google.com/maps/place/Restaurante+La+vecina/@16.8564988,-99.8941181,17z" target="_blank" class="border-2 border-white text-white px-10 py-5 rounded-2xl text-xl font-semibold hover:bg-white hover:text-amber-700 transition-all inline-flex items-center justify-center gap-3">
+          <i class="fas fa-map-marker-alt"></i> Cómo Llegar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Visítanos</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Contacto</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg border border-gray-100 card-hover" data-aos="fade-up">
+          <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-map-marker-alt text-xl text-amber-600"></i>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">Ubicación</h3>
+          <p class="text-sm text-gray-500">Acapulco, Guerrero, México</p>
+          <a href="https://www.google.com/maps/place/Restaurante+La+vecina/@16.8564988,-99.8941181,17z" target="_blank" class="inline-block mt-4 text-amber-600 font-semibold text-sm hover:text-amber-700">Ver en mapa →</a>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-clock text-xl text-amber-600"></i>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">Horario</h3>
+          <p class="text-sm text-gray-500">Abierto · Cierra a las 5:00 PM</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fab fa-whatsapp text-xl text-green-600"></i>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">WhatsApp</h3>
+          <p class="text-sm text-gray-500">Ordena y reserva fácilmente</p>
+          <a href="https://wa.me/5217443839451" class="inline-block mt-4 text-green-600 font-semibold text-sm hover:text-green-700">Enviar mensaje →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5217443839451" class="floating-whatsapp fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all text-3xl z-50" title="Contactar por WhatsApp" aria-label="Botón flotante de WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400">
+    <div class="container mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        
+        <div class="md:col-span-1">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-11 h-11 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl flex items-center justify-center">
+              <i class="fas fa-utensils text-white text-xl"></i>
+            </div>
+            <div>
+              <span class="text-2xl font-bold text-white">La<span class="text-amber-400">Vecina</span></span>
+              <p class="text-xs text-gray-500 -mt-1">Pozolería & Mariscos</p>
+            </div>
+          </div>
+          <p class="text-sm mb-6">La mejor pozolería de la zona. Ambiente 100% familiar, música en vivo y show de imitadores.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-bold mb-4">Menú</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-amber-400 transition-colors">Pozole</a></li>
+            <li><a href="#" class="hover:text-amber-400 transition-colors">Mojarra Frita</a></li>
+            <li><a href="#" class="hover:text-amber-400 transition-colors">Camarones</a></li>
+            <li><a href="#" class="hover:text-amber-400 transition-colors">Cubetazo</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-bold mb-4">La Vecina</h3>
+          <ul class="space-y-2">
+            <li><a href="#inicio" class="hover:text-amber-400 transition-colors">Inicio</a></li>
+            <li><a href="#menu" class="hover:text-amber-400 transition-colors">Menú</a></li>
+            <li><a href="#eventos" class="hover:text-amber-400 transition-colors">Eventos</a></li>
+            <li><a href="#contacto" class="hover:text-amber-400 transition-colors">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-bold mb-4">Sitio web creado por</h3>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-11 h-11 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center">
+              <i class="fas fa-code text-white text-xl"></i>
+            </div>
+            <div>
+              <span class="text-2xl font-bold text-white">Code<span class="text-indigo-400">Nova</span></span>
+              <p class="text-xs text-gray-500 -mt-1">Software que impulsa tu negocio</p>
+            </div>
+          </div>
+          <a href="https://codenovaonline.netlify.app/" target="_blank" class="text-indigo-400 hover:text-indigo-300 text-sm">codenovaonline.netlify.app →</a>
+        </div>
+        
+      </div>
+      
+      <hr class="border-gray-800 mb-8">
+      
+      <div class="flex flex-col md:flex-row justify-between items-center text-sm">
+        <p>© 2026 Restaurante La Vecina. Todos los derechos reservados.</p>
+        <p class="mt-2 md:mt-0">🍲 Pozolería · 🦐 Mariscos · 🎤 Show en vivo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      AOS.init({ duration: 1000, once: true, disable: 'mobile' });
+    });
+  </script>
+</body>
+</html>
